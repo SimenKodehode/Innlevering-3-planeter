@@ -71,6 +71,8 @@ a {
 #hero {
   height: 100vb;
   background-image: url(images/Gemini_Jupiter+moons.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .planet {
@@ -84,38 +86,28 @@ a {
   background-image: url(images/Jupiter.jpg);
   justify-content: end;
   align-items: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #io {
   background-image: url(images/Gemini_Io.jpg);
   justify-content: start;
   align-items: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #europa {
   background-image: url(images/Europa.jpg);
-  background-repeat: no-repeat;
   justify-content: end;
   align-items: center;
-  background-size: cover;
 }
 
 #ganymede {
   background-image: url(images/Gemini_Ganymede.jpg);
   justify-content: end;
   align-items: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #callisto {
   background-image: url(images/Gemini_Callisto.jpg);
   justify-content: start;
   align-items: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }

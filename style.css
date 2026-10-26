@@ -4,10 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family:
-    "orbitron" Arial,
-    Helvetica,
-    sans-serif;
+  font-family: "orbitron", Arial, Helvetica, sans-serif;
 }
 header {
   position: sticky;
@@ -22,10 +19,14 @@ ul {
   display: flex;
   justify-content: center;
   gap: 10%;
-  color: white;
   list-style: none;
   font-size: xx-large;
   background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 #hero {

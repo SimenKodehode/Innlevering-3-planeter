@@ -32,6 +32,11 @@ a {
   color: white;
 }
 
+/* Backround colour behind pictures */
+body {
+  background-color: black;
+}
+
 /* Planetcard Textbox Styling */
 .text-box {
   width: 30%;

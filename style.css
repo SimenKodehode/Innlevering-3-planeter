@@ -55,9 +55,6 @@ a {
   line-height: 30px;
   line-height: 1.5;
   font-family: "Exo 2", Arial, Helvetica, sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
 }
 
 /* Nav Button Effects */

@@ -69,10 +69,12 @@ a {
 
 /* Planetcard styling */
 #hero {
-  height: 100vb;
   background-image: url(images/Gemini_Jupiter+moons.jpg);
-  background-repeat: no-repeat;
+  width: 100%;
+  aspect-ratio: 1584 / 672;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .planet {

@@ -34,7 +34,7 @@ a {
 
 /* Planetcard Textbox Styling */
 .text-box {
-  width: 400px;
+  width: 30%;
   padding: 10px;
   margin: 35px;
   margin-bottom: 30px;
@@ -76,12 +76,16 @@ a {
 .planet {
   display: flex;
   height: 130vb;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #jupiter {
   background-image: url(images/Jupiter.jpg);
   justify-content: end;
   align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #io {
@@ -97,6 +101,7 @@ a {
   background-repeat: no-repeat;
   justify-content: end;
   align-items: center;
+  background-size: cover;
 }
 
 #ganymede {

@@ -4,8 +4,6 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: "orbitron", Arial, Helvetica, sans-serif;
-  color: white;
 }
 
 /* Navbar Styling */
@@ -30,6 +28,8 @@ ul {
 a {
   text-decoration: none;
   display: inline-block;
+  font-family: "orbitron", Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 /* Planetcard Textbox Styling */
@@ -40,15 +40,24 @@ a {
   margin-bottom: 30px;
   backdrop-filter: blur(6px);
   border-radius: 12px;
-  text-shadow: 0 1px 3px black;
+  color: white;
+  text-shadow:
+    0 0 6px black,
+    0 0 12px black;
 }
 
 .text-box h2 {
   margin-bottom: 50px;
+  font-family: "orbitron", Arial, Helvetica, sans-serif;
 }
 
 .text-box p {
   line-height: 30px;
+  line-height: 1.5;
+  font-family: "Exo 2", Arial, Helvetica, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 /* Nav Button Effects */

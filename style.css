@@ -42,7 +42,6 @@ body {
   width: 30%;
   padding: 10px;
   margin: 35px;
-  margin-bottom: 30px;
   backdrop-filter: blur(6px);
   border-radius: 12px;
   color: white;
@@ -60,6 +59,18 @@ body {
   line-height: 30px;
   line-height: 1.5;
   font-family: "Exo 2", Arial, Helvetica, sans-serif;
+}
+
+/* Footer button and styling */
+#b-top {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 75px;
+}
+
+footer {
+  margin: -30px;
 }
 
 /* Nav Button Effects */
